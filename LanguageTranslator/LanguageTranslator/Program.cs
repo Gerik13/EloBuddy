@@ -19,8 +19,8 @@ namespace LanguageTranslator
 {
     internal static class Program
     {
-        private const string VersionUrl = "https://raw.githubusercontent.com/jachicao/EloBuddy/master/LanguageTranslator/LanguageTranslator/Properties/AssemblyInfo.cs";
-        private const string JsonUrl = "https://raw.githubusercontent.com/jachicao/EloBuddy/master/LanguageTranslator/LanguageTranslator/Translations.json";
+        private const string VersionUrl = "https://raw.githubusercontent.com/Gerik13/EloBuddy/master/LanguageTranslator/LanguageTranslator/Properties/AssemblyInfo.cs";
+        private const string JsonUrl = "https://raw.githubusercontent.com/Gerik13/EloBuddy/master/LanguageTranslator/LanguageTranslator/Translations.json";
         private const string VersionRegex = @"\[assembly\: AssemblyVersion\(""(\d+\.\d+\.\d+\.\d+)""\)\]";
         private static string _jsonPath;
         private static string _programDirectory;
@@ -34,7 +34,7 @@ namespace LanguageTranslator
             { "en-US", Language.English },
             { "en-GB", Language.English },
             { "es-ES", Language.Spanish },
-            { "fr-FR", Language.Russia },
+            { "ru-RU", Language.Russia },
             { "de-DE", Language.German },
             { "it-IT", Language.Italian },
             { "pt-BR", Language.Portuguese },
