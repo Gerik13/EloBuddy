@@ -1,5 +1,5 @@
 {
-      "Основное": {
+      "Core": {
             "English": {
                   "0": "Core",
                   "1": "Ticks Per Second",
@@ -23,7 +23,7 @@
                   "19": "Spells to be detected:"
             },
             "Russia": {
-                  "0": "Основное",
+                  "0": "Coreeee",
                   "1": "Ticks Par Secondes",
                   "2": "         Valeur recommandée: 25.",
                   "3": "Note: Les ticks par secondes représentent le nombre de fois l'événement Game.OnTick doit être appelé.",
